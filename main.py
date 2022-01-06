@@ -7,8 +7,7 @@ import starlette.responses as _responses
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",
-    "localhost:3001"
+    "https://suraj2733.github.io"
 ]
 
 app.add_middleware(
